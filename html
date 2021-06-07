@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<!--This is a form where users can enter the little joys they experience in a day-->
+
+<head>
+    <title>Joy Jar</title>
+</head>
+
+<!-- joy jar
+name
+email
+date
+time of day - radio
+where - dropdown
+joy level - numbers
+emotions - checkbox
+write your joy - text field
+
+-->
+
+<body>
+    <h1 id="title">JOY JAR</h1>
+    <p id="description">save a moment from your day</p>
+
+    <form id="survey-form">
+        <label id="name-label">name</label>
+        <br>
+        <input type="text" name="name" id="name" class="form-inputs" placeholder="tell me your name" required />
+        <br>
+        <br>
+
+        <label id="email-label">email</label>
+        <br>
+        <input type="email" name="email" id="email" class="form-inputs" placeholder="i wont send you any spam" required />
+        <br>
+        <br>
+
+        <label id="date">date</label>
+        <br>
+        <input type="date" name="date" class="form-inputs" />
+        <br>
+        <br>
+
+        <label>time of day</label>
+        <br>
+        <input type="radio" name="time-of-day" value="morning" class="radio-inputs" />morning<br>
+        <input type="radio" name="time-of-day" value="afternoon" class="radio-inputs" />afternoon<br>
+        <input type="radio" name="time-of-day" value="evening" class="radio-inputs" />evening<br>
+        <input type="radio" name="time-of-day" value="late night" class="radio-inputs" />late night
+        <br>
+        <br>
+
+        <label>where you experienced a little joy</label>
+        <br>
+        <select name="where" id="dropdown">
+            <option value="home">home</option>
+            <option value="work">work</option>
+            <option value="school">school</option>
+            <option value="friends">friends</option>
+            <option value="vacation">vacation</option>
+        </select>
+        <br>
+        <br>
+
+        <label id="number-label">what level of joy did this moment bring</label>
+        <br>
+        <input type="number" name="joy-level" id="number" class="form-inputs" min="1" max="10"
+            placeholder="scale of 1 to 10" required />
+        <br>
+        <br>
+
+        <label>what were you feeling</label>
+        <br>
+        <input type="checkbox" name="emotion" value="love" />love<br>
+        <input type="checkbox" name="emotion" value="serenity" />serenity<br>
+        <input type="checkbox" name="emotion" value="pride" />pride<br>
+        <input type="checkbox" name="emotion" value="hope" />hope<br>
+        <input type="checkbox" name="emotion" value="bliss" />bliss
+        <br>
+        <br>
+
+        <textarea name="thejoy">
+            tell me about it..
+        </textarea>
+        <br>
+        <br>
+
+        <input type="submit" id="submit" value="Send to the Universe"
+
+    </form>
+
+</body>
+
+
+</html>
