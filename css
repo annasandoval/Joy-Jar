@@ -1,3 +1,49 @@
 body {
   background-image: url("https://i.imgur.com/D9GTvq1.jpg");
 }
+
+
+#lid {
+    width: 500px;
+    text-align: center;
+    background-color: #d8e2dc;
+    border: 2px solid gray;
+    border-radius: 0.8em 0.8em 2em 2em;
+    font-family: 'Permanent Marker', cursive;
+}
+#title {
+    font-size: 50px;
+    color: #fec5bb;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#description{
+    font-size: 20px;
+    color: #f8a697;
+    margin-top: 10px;
+    font-family: 'Amatic SC', cursive;
+}
+
+#jar {
+    width: 500px;
+    color: #72acac;
+    text-align: center;
+    background-color: rgba(236, 228, 219, 0.5);
+    border: 2px solid gray;
+    border-radius: 2em 2em 2em 2em;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+#thejoy {
+    width: 250px;
+    height: 100px;
+    text-align: left;
+}
+
+#submit {
+    color: #72acac;
+    background-color: #fec5bb;
+    border-color: #d8e2dc;
+}
